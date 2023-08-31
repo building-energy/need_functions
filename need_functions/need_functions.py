@@ -11,6 +11,8 @@ import json
 import os
 import sqlite3
 from csvw_functions import csvw_functions_extra
+import matplotlib.pyplot as plt
+from matplotlib import ticker
 
 
 _default_data_folder='_data'  # the default
@@ -25,6 +27,7 @@ def set_data_folder(
         metadata_document_location=r'https://raw.githubusercontent.com/building-energy/need_functions/main/need_tables-metadata.json', 
         data_folder=_default_data_folder,
         overwrite_existing_files=False,
+        import_to_database=True,
         database_name=_default_database_name,
         remove_existing_tables=False,
         verbose=False,
@@ -40,34 +43,281 @@ def set_data_folder(
             verbose=verbose
             )
 
-    return
+    if import_to_database:
         
-    # import all tables to sqlite
-    csvw_functions_extra.import_table_group_to_sqlite(
-        metadata_document_location=fp_metadata,
-        data_folder=data_folder,
-        database_name=database_name,
-        remove_existing_tables=remove_existing_tables,
-        verbose=verbose
-        )
+        # import all tables to sqlite
+        csvw_functions_extra.import_table_group_to_sqlite(
+            metadata_document_location=fp_metadata,
+            data_folder=data_folder,
+            database_name=database_name,
+            remove_existing_tables=remove_existing_tables,
+            verbose=verbose
+            )
 
 
-def _read_metadata_table_group_dict(
-        data_folder,
+def get_metadata_table_group_dict(
+        data_folder=_default_data_folder,
         ):
     ""
     fp=os.path.join(
         data_folder,
-        'snecs_tables-metadata.json'
+        'need_tables-metadata.json'
         )
     with open(fp) as f:
-        metadata_table_group_dic=json.load(f)
+        metadata_table_group_dict=json.load(f)
         
-    return metadata_table_group_dic
+    return metadata_table_group_dict
+
+
+def get_metadata_table_dict(
+        table_name,
+        metadata_table_group_dict=None,
+        data_folder=_default_data_folder
+        ):
+    ""
+    if metadata_table_group_dict is None:
         
+        metadata_table_group_dict=\
+            get_metadata_table_group_dict(
+                data_folder=data_folder,
+                )
+    
+    for metadata_table_dict in metadata_table_group_dict['tables']:
+        
+        if metadata_table_dict['https://purl.org/berg/csvw_functions/vocab/sql_table_name']['@value']==table_name:
+            
+            break
+        
+    else:
+        
+        raise Exception
+    
+    return metadata_table_dict
+    
+       
+
+def get_metadata_column_dict(
+        column_name,
+        table_name,
+        metadata_table_group_dict=None,
+        data_folder=_default_data_folder
+        ):
+    ""
+    if metadata_table_group_dict is None:
+        
+        metadata_table_group_dict = \
+            get_metadata_table_group_dict(
+                data_folder=data_folder,
+                )
+            
+    metadata_table_dict = \
+        get_metadata_table_dict(
+               table_name,
+               metadata_table_group_dict
+               )
+    
+    for metadata_column_dict in metadata_table_dict['tableSchema']['columns']:
+        
+        if metadata_column_dict['name']==column_name:
+            
+            break
+        
+    else:
+        
+        raise Exception
+    
+    return metadata_column_dict
+    
+
+def get_codes(
+        column_name,
+        table_name,
+        metadata_table_group_dict=None,
+        data_folder=_default_data_folder
+        ):
+    ""
+    metadata_column_dict = \
+        get_metadata_column_dict(
+                column_name,
+                table_name,
+                metadata_table_group_dict=metadata_table_group_dict,
+                data_folder=data_folder
+                )
+        
+    datatype_base = metadata_column_dict['datatype']['base']
+        
+    codes = metadata_column_dict.get(
+        'https://purl.org/berg/csvw_functions/vocab/codes',
+        {}
+        )
+    
+    if datatype_base == 'integer':
+        x=lambda y:int(y) if y!='' else y
+    elif datatype_base in ['decimal','number']:
+        x=lambda y:float(y) if y!='' else y
+    elif datatype_base == 'string':
+        x=lambda y:y
+    else:
+        raise Exception
+    
+    codes = {x(k):v['@value'] for k,v in codes.items()}
+    
+    return codes
+
+
+def run_sql(
+        sql_query,
+        data_folder=_default_data_folder,
+        database_name=_default_database_name,
+        verbose=False
+        ):
+    ""
+    fp_database=os.path.join(data_folder,database_name)
+    
+    if verbose:
+        print('fp_database',fp_database)
+        print(sql_query)
+        
+    with sqlite3.connect(fp_database) as conn:
+        conn.row_factory = sqlite3.Row
+        c = conn.cursor()
+        result=[dict(x) for x in c.execute(sql_query).fetchall()]
+        
+    return result
+
+
+def add_index(
+        fields,
+        table_name,
+        unique=False,
+        data_folder=_default_data_folder,
+        database_name=_default_database_name,
+        verbose=False
+        ):
+    ""
+    fields=_convert_to_iterator(fields)
+    fields_string='__'.join(fields)
+    
+    if unique:
+        unique_string='UNIQUE'
+    else:
+        unique_string=''
+    
+    index_name=f'index__{table_name}__{fields_string}'
+    if unique:
+        index_name=f'{index_name}__UNIQUE'
+    
+    if verbose:
+        print('index_name',index_name)
+        
+    column_list='","'.join(fields)
+    column_list=f'"{column_list}"'
+        
+    fp_database=os.path.join(data_folder,database_name)
+    
+    query=f"""
+        CREATE {unique_string} INDEX "{index_name}" 
+        ON "{table_name}"({column_list});
+    """
+    if verbose:
+        print('fp_database',fp_database)
+        print(query)
+        
+    try:
+        
+        with sqlite3.connect(fp_database) as conn:
+            c = conn.cursor()
+            c.execute(query)
+            conn.commit()
+            
+    except sqlite3.OperationalError:
+        
+        if verbose:
+            print('Index not created - already exists in table')
 
     
 #%% main functions
+
+def get_distribution(
+        field,
+        table_name='need_2021_anon_dataset_4million',
+        data_folder=_default_data_folder,
+        database_name=_default_database_name,
+        verbose=False
+        ):
+    ""
+   
+    query=f"""
+        SELECT "{field}", COUNT("{field}") AS COUNT
+        FROM "{table_name}" 
+        GROUP BY "{field}" 
+        ORDER BY "{field}"
+        """
+        
+    result = run_sql(
+        query,
+        data_folder=data_folder,
+        database_name=database_name,
+        verbose=verbose
+        )
+    
+    codes = \
+        get_codes(
+            field,
+            table_name
+            )
+    
+    if verbose:
+        print('codes', codes)
+        
+    if len(codes)>0:
+    
+        result=[{k:codes.get(v,v) if k==field else v
+                 for k,v in x.items()} 
+                for x in result]
+        
+    return result
+
+
+def plot_distribution(
+    field,
+    table_name='need_2021_anon_dataset_4million',
+    data_folder=_default_data_folder,
+    database_name=_default_database_name,
+    verbose=False
+    ):
+    ""
+    result = \
+        get_distribution(
+            field,
+            table_name=table_name,
+            data_folder=data_folder,
+            database_name=database_name,
+            verbose=verbose
+            )
+    result=result[::-1]
+    x=[z[field] for z in result]
+    y=[z['COUNT'] for z in result]
+    fig, ax = plt.subplots(figsize=(16,6))
+    bars=ax.barh(x,y)
+    ax.get_xaxis().set_major_formatter(ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+    ax.bar_label(bars, labels=[format(z/sum(y), ".2%") for z in y])
+    return fig,ax
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def _convert_to_iterator(
         x
