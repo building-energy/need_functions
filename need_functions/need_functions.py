@@ -284,7 +284,8 @@ def plot_distribution(
     table_name='need_2021_anon_dataset_4million',
     data_folder=_default_data_folder,
     database_name=_default_database_name,
-    verbose=False
+    verbose=False,
+    y_label_max_size=50
     ):
     ""
     result = \
@@ -296,7 +297,7 @@ def plot_distribution(
             verbose=verbose
             )
     result=result[::-1]
-    x=[z[field] for z in result]
+    x=[str(z[field])[:y_label_max_size] for z in result]
     y=[z['COUNT'] for z in result]
     fig, ax = plt.subplots(figsize=(16,6))
     bars=ax.barh(x,y)
