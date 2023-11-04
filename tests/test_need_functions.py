@@ -23,15 +23,12 @@ class TestDataFolder(unittest.TestCase):
     
     def test_get_available_csv_file_names(self):
         ""
-        
-        x = \
-            csvw_functions_extra.get_normalized_metadata_table_group_dict(
-                metadata_document_location
-                )
-        print(x)
-        
         result = need_functions.get_available_csv_file_names()
-        print('result',result)
+        #print(result)
+        self.assertEqual(
+            result,
+            ['need_2021_anon_dataset_4million.csv']
+            )
         
     
     def _test__download_table_group_LOCAL_METADATA(self):
@@ -57,6 +54,17 @@ class TestDataFolder(unittest.TestCase):
         ""
         need_functions.download_and_import_data(
             verbose=True,
+            )
+        
+        
+    def test_get_need_table_names_in_database(self):
+        ""
+        result = \
+            need_functions.get_need_table_names_in_database()
+        #print(result)
+        self.assertEqual(
+            result,
+            ['need_2021_anon_dataset_4million']
             )
 
         
