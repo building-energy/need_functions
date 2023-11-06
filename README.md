@@ -20,7 +20,29 @@ The python package [`csvw_functions_extra`](https://github.com/stevenkfirth/csvw
 
 ## Quick Start
 
+```python
+import need_functions
 
+# download all NEED data and import into database.
+need_functions.download_and_import_all_data()
+
+# get the distribution of property types in the data.
+result=need_functions.get_distribution(
+            'PROP_TYPE',
+            'need_2021_anon_dataset_4million'
+            )
+print(result)
+```
+```
+[
+        {'PROP_TYPE': 'Bungalow', 'COUNT': 359717}, 
+        {'PROP_TYPE': 'Detached', 'COUNT': 622875}, 
+        {'PROP_TYPE': 'End terrace', 'COUNT': 358170}, 
+        {'PROP_TYPE': 'Flat', 'COUNT': 862623}, 
+        {'PROP_TYPE': 'Mid terrace', 'COUNT': 773569}, 
+        {'PROP_TYPE': 'Semi detached', 'COUNT': 1023046}
+]
+```
 
 
 ## API
@@ -83,6 +105,7 @@ get_need_table_names_in_database(
 
 Returns: A list of table names.
 
+
 ### get_metadata_columns_codes
 
 Description: Returns lookup dictionaries for the NEED lookup codes for one or more columns.
@@ -103,5 +126,28 @@ Arguments:
 Returns *(dict of dicts)*: A dictionary with:
 - keys: the names of the column(s)
 - values: a dictionary with keys as lookup codes and values as code descriptions.
+
+
+### get_distribution
+
+Description: Returns the distribution of values in a column.
+
+```python
+need_functions.get_distribution(
+        field,
+        sql_table_name,
+        data_folder = '_data',
+        database_name = 'need_data.sqlite',
+        verbose=False
+        )
+```
+
+Arguments:
+- **field** *(str)*: A field in the database table.
+- **sql_table_name** *(str)*: The name of the database table.
+- **data_folder** *(str)*: The filepath of a local folder where the SQLite database is stored.
+- **database_name** *(str)*: The name of the SQLite database, relative to the data_folder.
+
+Returns *(list)*: A list of dictionaries, where each dictionary is a set of results with a unique value and a count of those unique values.
 
 

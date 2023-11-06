@@ -72,7 +72,7 @@ class TestDataFolder(unittest.TestCase):
         ""
         result=need_functions.get_metadata_columns_codes(
             column_names='PROP_AGE_BAND',
-            table_name='need_2021_anon_dataset_4million'
+            sql_table_name='need_2021_anon_dataset_4million'
             )
         #print(result)
         self.assertEqual(
@@ -94,7 +94,10 @@ class TestMainFunctions(unittest.TestCase):
     
     def test_get_distribution(self):
         ""
-        result=need_functions.get_distribution('PROP_TYPE')
+        result=need_functions.get_distribution(
+            'PROP_TYPE',
+            'need_2021_anon_dataset_4million'
+            )
         #print(result)
         self.assertEqual(
             result,
@@ -111,7 +114,10 @@ class TestMainFunctions(unittest.TestCase):
 
     def test_get_distribution_with_codes(self):
         ""
-        result=need_functions.get_distribution('PROP_AGE_BAND')
+        result=need_functions.get_distribution(
+            'PROP_AGE_BAND',
+            'need_2021_anon_dataset_4million'
+            )
         #print(result)
         self.assertEqual(
             result,

@@ -140,7 +140,7 @@ def get_metadata_columns_codes(
 
 def get_distribution(
         field,
-        table_name,
+        sql_table_name,
         data_folder = '_data',
         database_name = 'need_data.sqlite',
         verbose=False
@@ -149,7 +149,7 @@ def get_distribution(
    
     query=f"""
         SELECT "{field}", COUNT("{field}") AS COUNT
-        FROM "{table_name}" 
+        FROM "{sql_table_name}" 
         GROUP BY "{field}" 
         ORDER BY "{field}"
         """
@@ -164,7 +164,7 @@ def get_distribution(
     codes = \
         get_metadata_columns_codes(
             field,
-            table_name
+            sql_table_name
             )
         
     codes = codes[field]
