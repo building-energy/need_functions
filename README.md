@@ -27,11 +27,18 @@ The python package [`csvw_functions_extra`](https://github.com/stevenkfirth/csvw
 
 ### get_available_csv_file_names
 
+Description: Returns the CSV file names of all tables in the [CSVW metadata file](https://raw.githubusercontent.com/building-energy/snecs_functions/main/snecs_tables-metadata.json).
+
 ```python
 need_functions.get_available_csv_file_names()
 ```
 
+Returns: A list of the `https://purl.org/berg/csvw_functions_extra/vocab/csv_file_name` value in each table.
+
+
 ### download_and_import_data
+
+Description: Downloads all the NEED data and imports all data into a SQLite database.
 
 ```python
 need_functions.download_and_import_all_data(
@@ -42,7 +49,27 @@ need_functions.download_and_import_all_data(
         )
 ```
 
+The data to be downloaded is described in the CSVW metadata file here: https://raw.githubusercontent.com/building-energy/snecs_functions/main/snecs_tables-metadata.json
+
+Running this function will:
+- create the `data_folder` if it does not already exist.
+- download the CSV files to the data folder.
+- download the CSVW metadata file to the data folder. This is named 'need_tables-metadata.json'.
+- create a SQLite database named `database_name` in the data folder if it does not already exist.
+- import the CSV data into the SQLite database.
+
+Arguments:
+- **csv_file_names** *(str, list or None)*: The CSV file name(s) to download and import (see [`get_available_csv_file_names`](#get_available_csv_file_names)). `None` will download the entire dataset.
+- **data_folder** *(str)*: The filepath of a local folder where the downloaded CSV data is saved to and the SQLite database is stored.
+- **database_name** *(str)*: The name of the SQLite database, relative to the data_folder.
+- **verbose (bool)**: If True, then this function prints intermediate variables and other useful information.
+
+Returns: None
+
+
 ### get_need_table_names_in_database
+
+Description: Returns the table names of all NEED tables in the SQLite database.
 
 ```python
 get_need_table_names_in_database(
@@ -51,14 +78,30 @@ get_need_table_names_in_database(
         )
 ```
 
+- **data_folder** *(str)*: The filepath of a local folder where the SQLite database is stored.
+- **database_name** *(str)*: The name of the SQLite database, relative to the data_folder.
+
+Returns: A list of table names.
+
 ### get_metadata_columns_codes
+
+Description: Returns lookup dictionaries for the NEED lookup codes for one or more columns.
 
 ```python
 need_functions.get_metadata_columns_codes(
         column_names,
-        table_name,
+        sql_table_name,
         data_folder = '_data',
         )
 ```
+
+Arguments:
+- **column_name** *(str)*: The `name` value of a column in a CSVW TableSchema object.
+- **sql_table_name** *(str)*: The `https://purl.org/berg/csvw_functions_extra/vocab/sql_table_name` value of the table.
+- **data_folder** *(str)*: The filepath of a local folder where the normalized CSVW metadata file is saved.
+
+Returns *(dict of dicts)*: A dictionary with:
+- keys: the names of the column(s)
+- values: a dictionary with keys as lookup codes and values as code descriptions.
 
 

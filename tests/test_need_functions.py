@@ -87,13 +87,12 @@ class TestDataFolder(unittest.TestCase):
                 }
             )
         
-    
-    
+        
 
 class TestMainFunctions(unittest.TestCase):
     ""
     
-    def _test_get_distribution(self):
+    def test_get_distribution(self):
         ""
         result=need_functions.get_distribution('PROP_TYPE')
         #print(result)
@@ -110,7 +109,7 @@ class TestMainFunctions(unittest.TestCase):
             )
 
 
-    def _test_get_distribution_with_codes(self):
+    def test_get_distribution_with_codes(self):
         ""
         result=need_functions.get_distribution('PROP_AGE_BAND')
         #print(result)

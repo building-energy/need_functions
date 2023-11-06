@@ -116,7 +116,7 @@ def get_need_table_names_in_database(
        
 def get_metadata_columns_codes(
         column_names,
-        table_name,
+        sql_table_name,
         data_folder = '_data',
         ):
     """
@@ -127,7 +127,7 @@ def get_metadata_columns_codes(
     result = \
         csvw_functions_extra.get_metadata_columns_codes(
             column_names,
-            table_name,
+            sql_table_name,
             data_folder = data_folder,
             metadata_filename = metadata_filename
             )
@@ -140,9 +140,9 @@ def get_metadata_columns_codes(
 
 def get_distribution(
         field,
-        table_name='need_2021_anon_dataset_4million',
-        data_folder=_default_data_folder,
-        database_name=_default_database_name,
+        table_name,
+        data_folder = '_data',
+        database_name = 'need_data.sqlite',
         verbose=False
         ):
     ""
@@ -162,10 +162,12 @@ def get_distribution(
         )
     
     codes = \
-        get_codes(
+        get_metadata_columns_codes(
             field,
             table_name
             )
+        
+    codes = codes[field]
     
     if verbose:
         print('codes', codes)
