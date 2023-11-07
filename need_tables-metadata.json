@@ -747,8 +747,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2007",
                         "datatype": {
@@ -756,8 +759,11 @@
                             "minimum": 500, 
                             "maximum": 25000},
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2008",
                         "datatype": {
@@ -766,8 +772,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2009",
                         "dat`atype": {
@@ -776,8 +785,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2010",
                         "datatype": {
@@ -786,8 +798,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2011",
                         "datatype": {
@@ -796,8 +811,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2012",
                         "datatype": {
@@ -806,8 +824,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2013",
                         "datatype": {
@@ -816,8 +837,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2014",
                         "datatype": {
@@ -826,8 +850,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2015",
                         "datatype": {
@@ -836,8 +863,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2016",
                         "datatype": {
@@ -846,8 +876,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "Econs2017",
                         "datatype": {
@@ -856,8 +889,10 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
                     },
                     {
                         "name": "Econs2018",
@@ -867,8 +902,10 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
                     },
                     {
                         "name": "Econs2019",
@@ -878,8 +915,11 @@
                             "maximum": 25000
                         },
                         "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                        "Data aggregators on behalf of electricity suppliers"]},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
                     {
                         "name": "ElecValFlag2005",
                         "datatype": {
@@ -887,9 +927,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2006",
                         "datatype": {
@@ -897,8 +947,18 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],"https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],"https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2007",
                         "datatype": {
@@ -906,9 +966,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2008",
                         "datatype": {
@@ -916,9 +986,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2009",
                         "datatype": {
@@ -926,9 +1006,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2010",
                         "datatype": {
@@ -936,9 +1026,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2011",
                         "datatype": {
@@ -946,9 +1046,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2012",
                         "datatype": {
@@ -956,9 +1066,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2013",
                         "datatype": {
@@ -966,9 +1086,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2014",
                         "datatype": {
@@ -976,9 +1106,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2015",
                         "datatype": {
@@ -986,9 +1126,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2016",
                         "datatype": {
@@ -996,9 +1146,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2017",
                         "datatype": {
@@ -1006,9 +1166,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2018",
                         "datatype": {
@@ -1016,9 +1186,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}},
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
                     {
                         "name": "ElecValFlag2019",
                         "datatype": {
@@ -1026,9 +1206,19 @@
                             "format": "V|E|L|G|O|"
                         },
                         "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": ["V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                        "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {"V":"valid","E":"estimated consumption","L":"annual consumption below 500 kWh","G":"annual consumption over 25,000 kWh","O":"missing (this includes cases where the property did not yet exist)","":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."}}
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    }
                 ]
             }
         }
