@@ -779,7 +779,7 @@
                     },
                     {
                         "name": "Econs2009",
-                        "dat`atype": {
+                        "datatype": {
                             "base": "integer", 
                             "minimum": 500, 
                             "maximum": 25000
