@@ -140,8 +140,8 @@ def get_need_table_names_in_database(
 
        
 def get_metadata_columns_codes(
-        column_names,
         sql_table_name = 'need_2021_anon_dataset_4million',
+        column_names = None,
         data_folder = '_data',
         ):
     """
@@ -151,8 +151,8 @@ def get_metadata_columns_codes(
 
     result = \
         csvw_functions_extra.get_metadata_columns_codes(
-            column_names,
-            sql_table_name,
+            sql_table_name = sql_table_name,
+            column_names = column_names,
             data_folder = data_folder,
             metadata_filename = metadata_filename
             )
@@ -186,6 +186,64 @@ def get_row_count(
     
     return result
 
+
+def get_rows(
+        table_name = 'need_2021_anon_dataset_4million',
+        data_folder = '_data',
+        database_name = 'need_data.sqlite',
+        filter_by = None,  
+        fields = None,  
+        pandas = False,
+        limit = None,
+        replace_codes = False,
+        verbose = False
+        ):
+    ""
+    
+    metadata_filename = 'need_tables-metadata.json'
+    
+    result = \
+        csvw_functions_extra.get_rows(
+            table_name = table_name,
+            data_folder = data_folder,
+            database_name = database_name,
+            filter_by = filter_by,
+            fields = fields,
+            limit = limit,
+            pandas = pandas,
+            replace_codes = replace_codes,
+            metadata_filename = metadata_filename,
+            verbose = verbose
+            )
+        
+    # if replace_codes:
+        
+    #     codes = \
+    #         get_metadata_columns_codes(
+    #                 sql_table_name = table_name,
+    #                 column_names = None,
+    #                 data_folder = data_folder
+    #                 )
+            
+    #     if isinstance(result,list):  # it's a list of ditionaries
+            
+    #         for row_dict in result:
+                
+    #             for field, value in row_dict.items():
+                    
+    #                 lookup_dict = codes.get(field)
+                    
+    #                 row_dict[field] = lookup_dict.get(value,value)
+            
+            
+    #     else:  # it's a Pandas dataframe
+            
+    #         for col in result.columns:
+                
+    #             result[col] = result[col].replace(codes.get(col,{}))
+                
+
+    return result
 
 
 
