@@ -96,6 +96,31 @@ def download_and_import_data(
             )
     
     
+def get_need_field_names_in_database(
+        data_folder = '_data',
+        database_name = 'need_data.sqlite',
+        ):
+    """
+    """
+    table_names = \
+        get_need_table_names_in_database(
+            data_folder = data_folder,
+            database_name = database_name
+            )
+        
+    result = {}
+    for table_name in table_names:
+        result[table_name] =\
+            csvw_functions_extra.get_field_names(
+                    table_name = table_name,
+                    data_folder = data_folder,
+                    database_name = database_name,
+                    )
+            
+    return result
+    
+    
+    
 def get_need_table_names_in_database(
         data_folder = '_data',
         database_name = 'need_data.sqlite',
@@ -116,7 +141,7 @@ def get_need_table_names_in_database(
        
 def get_metadata_columns_codes(
         column_names,
-        sql_table_name,
+        sql_table_name = 'need_2021_anon_dataset_4million',
         data_folder = '_data',
         ):
     """
@@ -137,6 +162,32 @@ def get_metadata_columns_codes(
 
     
 #%% main functions
+
+
+def get_row_count(
+        table_name = 'need_2021_anon_dataset_4million',
+        data_folder = '_data',
+        database_name = 'need_data.sqlite',
+        filter_by=None,
+        group_by=None,
+        verbose=False
+        ):
+    ""
+    
+    result = \
+        csvw_functions_extra.get_row_count(
+                table_name = table_name,
+                data_folder = data_folder,
+                database_name = database_name,
+                filter_by = filter_by,
+                group_by = group_by,
+                verbose = verbose
+                )
+    
+    return result
+
+
+
 
 def get_distribution(
         field,

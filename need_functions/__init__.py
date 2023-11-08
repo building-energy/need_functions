@@ -9,9 +9,13 @@ from .need_functions import download_and_import_data
 
 from .need_functions import get_metadata_columns_codes
 
+from .need_functions import get_need_field_names_in_database
+
 from .need_functions import get_need_table_names_in_database
 
-from .need_functions import get_distribution
+from .need_functions import get_row_count
+
+from .need_functions import get_rows
 
 
 
