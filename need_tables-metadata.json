@@ -234,163 +234,7 @@
                         }
                     },
                     {
-                        "name": "Gcons2005",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2006",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2007",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2008",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2009",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2010",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2011",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2012",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2013",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2014",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2015",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2016",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 1000, 
-                            "maximum": 50000
-                        },
-                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
-                            "Xoserve (Central data service provider for Great Britain`s gas market)"
-                        ]
-                    },
-                    {
-                        "name": "Gcons2017",
+                        "name": "Gcons2019",
                         "datatype": {
                             "base": "integer", 
                             "minimum": 1000, 
@@ -416,7 +260,7 @@
                         ]
                     },
                     {
-                        "name": "Gcons2019",
+                        "name": "Gcons2017",
                         "datatype": {
                             "base": "integer", 
                             "minimum": 1000, 
@@ -429,246 +273,163 @@
                         ]
                     },
                     {
-                        "name": "GasValFlag2005",
+                        "name": "Gcons2016",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2006",
+                        "name": "Gcons2015",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2007",
+                        "name": "Gcons2014",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2008",
+                        "name": "Gcons2013",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2009",
+                        "name": "Gcons2012",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2010",
+                        "name": "Gcons2011",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2011",
+                        "name": "Gcons2010",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2012",
+                        "name": "Gcons2009",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2013",
+                        "name": "Gcons2008",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2014",
+                        "name": "Gcons2007",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2015",
+                        "name": "Gcons2006",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2016",
+                        "name": "Gcons2005",
                         "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
+                            "base": "integer", 
+                            "minimum": 1000, 
+                            "maximum": 50000
                         },
-                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "rdfs:comment": "Annual gas consumption rounded to the nearest 100 kWh. These estimates are weather corrected (adjusted to remove the effects of year on year differences in weather conditions to provide more like for like comparisons over time). Blank values are either missing or removed due to being too large (over 50,000 kWh) or too small (under 1,000 kWh).",
                         "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 1,000 kWh",
-                            "G":"annual consumption over 50,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
-                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
-                        }
+                            "Note that the years do not correspond to calendar years but are as follows: Prior to 2015: the equivalent gas period to 2015; 2015: October 2014 – September 2015; 2016: mid-July 2016 – mid-July 2017; 2017: mid-June 2017 to mid-June 2018; 2018: mid-May 2018 to mid-May 2019; 2019: mid-May 2019 to mid-May 2020",
+                            "Xoserve (Central data service provider for Great Britain`s gas market)"
+                        ]
                     },
                     {
-                        "name": "GasValFlag2017",
+                        "name": "GasValFlag2019",
                         "datatype": {
                             "base": "string", 
                             "format": "V|E|L|G|O|"
@@ -708,7 +469,246 @@
                         }
                     },
                     {
-                        "name": "GasValFlag2019",
+                        "name": "GasValFlag2017",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2016",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2015",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2014",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2013",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2012",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2011",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2010",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2009",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2008",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2007",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2006",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the gas consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 1,000 kWh; G = annual consumption over 50,000 kWh;O = missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 1,000 kWh",
+                            "G":"annual consumption over 50,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist or was not yet connected to the gas grid)",
+                            "":"Where this column is left blank this indicates that no gas meters could be matched to the property in question. Most of the time this will be due to the property not being connected to the gas grid."
+                        }
+                    },
+                    {
+                        "name": "GasValFlag2005",
                         "datatype": {
                             "base": "string", 
                             "format": "V|E|L|G|O|"
@@ -727,162 +727,7 @@
                         }
                     },
                     {
-                        "name": "Econs2005",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2006",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2007",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000},
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2008",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2009",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2010",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2011",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2012",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2013",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2014",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2015",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2016",
-                        "datatype": {
-                            "base": "integer", 
-                            "minimum": 500, 
-                            "maximum": 25000
-                        },
-                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
-                            "Data aggregators on behalf of electricity suppliers"
-                        ]
-                    },
-                    {
-                        "name": "Econs2017",
+                        "name": "Econs2019",
                         "datatype": {
                             "base": "integer", 
                             "minimum": 500, 
@@ -908,7 +753,19 @@
                         ]
                     },
                     {
-                        "name": "Econs2019",
+                        "name": "Econs2017",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000},
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2016",
                         "datatype": {
                             "base": "integer", 
                             "minimum": 500, 
@@ -921,7 +778,150 @@
                         ]
                     },
                     {
-                        "name": "ElecValFlag2005",
+                        "name": "Econs2015",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2014",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2013",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2012",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2011",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2010",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2009",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2008",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2007",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2006",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "Econs2005",
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 500, 
+                            "maximum": 25000
+                        },
+                        "rdfs:comment": "Annual electricity consumption (not weather corrected) rounded to the nearest 100 kWh. Blank values are either missing or removed due to being too large (over 25,000 kWh) or too small (under 500 kWh).",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "Note that the years do not correspond to calendar years but instead cover the months February to January (for example the 2019 electricity year refers to the months February 2019 to January 2020).",
+                            "Data aggregators on behalf of electricity suppliers"
+                        ]
+                    },
+                    {
+                        "name": "ElecValFlag2019",
                         "datatype": {
                             "base": "string", 
                             "format": "V|E|L|G|O|"
@@ -941,7 +941,7 @@
                         }
                     },
                     {
-                        "name": "ElecValFlag2006",
+                        "name": "ElecValFlag2018",
                         "datatype": {
                             "base": "string", 
                             "format": "V|E|L|G|O|"
@@ -960,167 +960,7 @@
                         }
                     },
                     {
-                        "name": "ElecValFlag2007",
-                        "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
-                        },
-                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 500 kWh",
-                            "G":"annual consumption over 25,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist)",
-                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
-                        }
-                    },
-                    {
-                        "name": "ElecValFlag2008",
-                        "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
-                        },
-                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 500 kWh",
-                            "G":"annual consumption over 25,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist)",
-                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
-                        }
-                    },
-                    {
-                        "name": "ElecValFlag2009",
-                        "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
-                        },
-                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 500 kWh",
-                            "G":"annual consumption over 25,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist)",
-                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
-                        }
-                    },
-                    {
-                        "name": "ElecValFlag2010",
-                        "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
-                        },
-                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 500 kWh",
-                            "G":"annual consumption over 25,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist)",
-                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
-                        }
-                    },
-                    {
-                        "name": "ElecValFlag2011",
-                        "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
-                        },
-                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 500 kWh",
-                            "G":"annual consumption over 25,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist)",
-                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
-                        }
-                    },
-                    {
-                        "name": "ElecValFlag2012",
-                        "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
-                        },
-                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 500 kWh",
-                            "G":"annual consumption over 25,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist)",
-                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
-                        }
-                    },
-                    {
-                        "name": "ElecValFlag2013",
-                        "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
-                        },
-                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 500 kWh",
-                            "G":"annual consumption over 25,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist)",
-                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
-                        }
-                    },
-                    {
-                        "name": "ElecValFlag2014",
-                        "datatype": {
-                            "base": "string", 
-                            "format": "V|E|L|G|O|"
-                        },
-                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
-                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
-                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
-                            "Derived"
-                        ],
-                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
-                            "V":"valid",
-                            "E":"estimated consumption",
-                            "L":"annual consumption below 500 kWh",
-                            "G":"annual consumption over 25,000 kWh",
-                            "O":"missing (this includes cases where the property did not yet exist)",
-                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
-                        }
-                    },
-                    {
-                        "name": "ElecValFlag2015",
+                        "name": "ElecValFlag2017",
                         "datatype": {
                             "base": "string", 
                             "format": "V|E|L|G|O|"
@@ -1160,7 +1000,7 @@
                         }
                     },
                     {
-                        "name": "ElecValFlag2017",
+                        "name": "ElecValFlag2015",
                         "datatype": {
                             "base": "string", 
                             "format": "V|E|L|G|O|"
@@ -1180,7 +1020,7 @@
                         }
                     },
                     {
-                        "name": "ElecValFlag2018",
+                        "name": "ElecValFlag2014",
                         "datatype": {
                             "base": "string", 
                             "format": "V|E|L|G|O|"
@@ -1200,7 +1040,167 @@
                         }
                     },
                     {
-                        "name": "ElecValFlag2019",
+                        "name": "ElecValFlag2013",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
+                    {
+                        "name": "ElecValFlag2012",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
+                    {
+                        "name": "ElecValFlag2011",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
+                    {
+                        "name": "ElecValFlag2010",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
+                    {
+                        "name": "ElecValFlag2009",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
+                    {
+                        "name": "ElecValFlag2008",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
+                    {
+                        "name": "ElecValFlag2007",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
+                    {
+                        "name": "ElecValFlag2006",
+                        "datatype": {
+                            "base": "string", 
+                            "format": "V|E|L|G|O|"
+                        },
+                        "rdfs:comment": "Valid category - Indicating whether or not the electricity consumption estimate was based on real meter readings or providing the reason that it was supressed.",
+                        "https://purl.org/berg/csvw_functions_extra/vocab/column_notes": [
+                            "V = valid; E = estimated consumption; L = annual consumption below 500 kWh; G = annual consumption over 25,000 kWh; O = missing (this includes cases where the property did not yet exist). Where this column is left blank this indicates that no electricity meters could be matched to the property in question.",
+                            "Derived"
+                        ],
+                        "https://purl.org/berg/csvw_functions_extra/vocab/codes": {
+                            "V":"valid",
+                            "E":"estimated consumption",
+                            "L":"annual consumption below 500 kWh",
+                            "G":"annual consumption over 25,000 kWh",
+                            "O":"missing (this includes cases where the property did not yet exist)",
+                            "":"Where this column is left blank this indicates that no electricity meters could be matched to the property in question."
+                        }
+                    },
+                    {
+                        "name": "ElecValFlag2005",
                         "datatype": {
                             "base": "string", 
                             "format": "V|E|L|G|O|"

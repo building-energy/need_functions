@@ -120,7 +120,6 @@ def get_need_field_names_in_database(
     return result
     
     
-    
 def get_need_table_names_in_database(
         data_folder = '_data',
         database_name = 'need_data.sqlite',
@@ -137,7 +136,6 @@ def get_need_table_names_in_database(
     
     return result
     
-
        
 def get_metadata_columns_codes(
         sql_table_name = 'need_2021_anon_dataset_4million',
